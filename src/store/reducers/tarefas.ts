@@ -9,24 +9,24 @@ type TarefasState = {
 const initialState: TarefasState = {
   itens: [
     {
-      titulo: 'Estudar JavaScript revendo o exercício do módulo 7',
+      titulo: 'Estudar JavaScript',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
       descricao: 'Descriçãozinha padrão',
       id: 1
     },
     {
-      titulo: 'Estudar material de apoio',
+      titulo: 'Estudar TypeScript',
       prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.PENDENTE,
-      descricao: 'Estudar TypeScript',
+      status: enums.Status.CONCLUIDA,
+      descricao: 'Estudar material de apoio',
       id: 2
     },
     {
-      titulo: 'Praticar a construção de uma landing page',
+      titulo: 'Estudar Bootstrap',
       prioridade: enums.Prioridade.URGENTE,
-      status: enums.Status.CONCLUIDA,
-      descricao: 'Estudar Bootstrap',
+      status: enums.Status.PENDENTE,
+      descricao: 'Praticar a construção de uma landing page',
       id: 3
     }
   ]
